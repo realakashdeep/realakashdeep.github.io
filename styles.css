@@ -33,3 +33,9 @@ body{
     text-decoration: none;
   }
 
+  .pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the height as needed */
+  }
