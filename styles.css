@@ -1,0 +1,35 @@
+body{
+    background-color: aliceblue;
+}
+
+
+  .nav-menu::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ccc; /* Adjust the line color as needed */
+    margin-top: 10px; /* Adjust the spacing between the line and the navigation menu */
+  }
+  .mail-menu::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ccc; /* Adjust the line color as needed */
+    margin-top: 10px; /* Adjust the spacing between the line and the navigation menu */
+  }
+
+  .lbxd::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ccc; /* Adjust the line color as needed */
+    margin-top: 10px; /* Adjust the spacing between the line and the navigation menu */
+  }
+
+  .img-sm {
+    max-width: 100px; /* Adjust the width as needed */
+  }
+  a {
+    text-decoration: none;
+  }
+
